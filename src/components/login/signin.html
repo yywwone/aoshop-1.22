@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* 版心 */
+    .center {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    /* 导航box */
+    .navbox {
+        width: 100%;
+        height: 135px;
+    }
+/* 顶部导航 start */
+    .navbar{
+        width: 100%;
+        height: 20px;
+        background-color: rgb(212, 40, 45);
+        color:#fff;
+    }
+    .navheader {
+        height: 20px;
+        font-size: 12px;
+    }
+    .fl-l li{
+        float:left;
+        margin-right: 13px;
+    }
+    .fl-r li{
+        float:right;
+        margin-left: 13px;
+
+    }
+    ul>li {
+        list-style: none;
+        height: 20px;
+        line-height: 20px;
+    }
+    li>select {
+        border: none;
+        background-color: rgb(212, 40, 45);
+        color:#fff;
+        outline: none;
+    }
+/* 顶部导航  end */
+
+/* logo 导航start */
+    .navlogo {
+        width: 100%;
+        height: 120px;
+        background: #fff;
+    }
+    .logo-box {
+        height: 120px;
+    }
+    .logo-left {
+        width: 225px;
+        height: 120px;
+        line-height: 120px;
+        background: url('../../assets/images/navlogo_1.jpg') no-repeat;
+        padding-left:105px; 
+        float:left;
+    }
+    .logo-left p {
+        font-size: 14px;
+    }
+    .logo-right {
+        float:right;
+        width: 550px;
+        height: 120px;
+        padding-top: 40px;
+    }
+    .logo-right input[type="text"] {
+        width: 450px;
+        height: 35px;
+        border: none;
+        border-bottom: 2px solid #d4282d;
+        outline:none;
+    }
+    .logo-right img {
+        margin-left: 15px;
+    }
+    .navlogo {
+        overflow: hidden
+    }
+/* logo导航 end */
+
+/*  登录 start */
+    .signinbox {
+        width: 100%;
+        height:600px;
+        border-top:4px solid #d4282d;
+        background-image: url("../../assets/images/signin/signinbg.png");
+    }
+/* 登录  end */
+
+/* 底部介绍 start */
+    .appfoot {
+        height: 168px;
+        background-color: #d4282d;
+        color: #fff;
+    }
+    .footword {
+        width: 1200px;
+        height: 168px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .footword ul {
+        width: 112px;
+        float:left;
+        box-sizing: border-box;
+        margin-top:35px;
+
+    }
+    .footword li {
+        list-style: none;
+    }
+    .float_li {
+        margin-left: 158px;
+    }
+    .footword li:first-child {
+        margin-bottom: 20px;
+    }
+/* 底部介绍 end */
+    </style>
+</head>
+<body>
+    <div>
+    <!-- 导航部分 -->
+        <div class="navbox">
+            <!-- 顶部导航 start -->
+            <div class="navbar">
+                <div class="navheader center">
+                    <ul class="fl-l">
+                        <li>注册</li>
+                        <li>登录</li>
+                        <li><img src="../../assets/images/flag_1.jpg" alt=""></li>
+                        <li>
+                            <select>
+                                <option value="">中&nbsp;&nbsp;&nbsp;&nbsp;国</option>
+                                <option value="">澳大利亚</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select>
+                                <option value="">人民币</option>
+                                <option value="">澳币</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select>
+                                <option value="">English</option>
+                                <option value="">Chinese</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul class="fl-r">
+                        <li>我的账户</li>
+                        <li>会员中心</li>
+                        <li>结账</li>
+                        <li>客户服务</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- logo导航 start -->
+            <div class="navlogo">
+                <div class="logo-box center">
+                    <div class="logo-left">
+                        <p>欢迎来到澳新</p>  
+                    </div>
+                    <div class="logo-right">
+                        <input type="text" placeholder="鱼腥草">
+                        <img src="../../assets/images/search.jpg" alt="搜索">
+                        <img src="../../assets/images/shopCar.jpg" alt="购物车">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- 导航结束 -->
+
+    <!-- 登录 注册 部分 start-->
+        <div class="signinbox">
+            
+        </div>
+    <!-- 登录 注册 部分 end-->
+
+    <!-- 底部 介绍 start -->
+        <div class="appfoot">
+            <div class="footword">
+                <ul>
+                    <li>新手上路</li>
+                    <li>购物流程</li>
+                    <li>常见问题</li>
+                    <li>验货与签收</li>
+                    <li>订购方式</li>
+                </ul>
+                <ul class="float_li">
+                    <li>配送与支付</li>
+                    <li>货到付款区域</li>
+                    <li>配送支付智能查询</li>
+                    <li>支付方式说明</li>
+                </ul>
+                <ul class="float_li">
+                    <li>会员中心</li>
+                    <li>售后流程</li>
+                    <li>资金管理</li>
+                    <li>我的收藏</li>
+                    <li>我的订单</li>
+                </ul>
+                <ul class="float_li">
+                    <li>服务保证</li>
+                    <li>退款说明</li>
+                    <li>售后服务保证</li>
+                    <li>产品质量保证</li>
+                </ul>
+                <ul class="float_li">
+                    <li>联系我们</li>
+                    <li>网站故障报告</li>
+                    <li>选机咨询</li>
+                    <li>投诉与建议</li>
+                </ul>
+            </div>
+        </div>
+    <!-- 底部 介绍 end -->
+    </div>
+    
+</body>
+</html>
